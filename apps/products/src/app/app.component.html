@@ -1,1 +1,25 @@
-<app-nx-welcome></app-nx-welcome> <router-outlet></router-outlet>
+<!-- These are NOT displaying the logo -->
+<div class="logo-with-slash">
+    <!--
+    ERROR in ./apps/products/src/app/app.component.scss?ngResource
+    Module Error (from ./node_modules/@angular-devkit/build-angular/node_modules/postcss-loader/dist/cjs.js):
+    /nx-ng-cypress-component-test-scss-error/apps/products/src/app/app.component.scss:4:26: Can't resolve '../../../../assets/logo.svg' in '/nx-ng-cypress-component-test-scss-error/apps/products/src/app'
+    -->
+</div>
+<img src="/assets/logo.svg" alt="/assets/logo.svg">
+
+
+<!-- These are displaying the logo -->
+<div class="logo-with-no-slash">
+    <!--
+    ERROR in ./apps/products/src/app/app.component.scss?ngResource
+    Module Error (from ./node_modules/@angular-devkit/build-angular/node_modules/postcss-loader/dist/cjs.js):
+    /nx-ng-cypress-component-test-scss-error/apps/products/src/app/app.component.scss:10:26: Can't resolve './assets/logo.svg' in '/nx-ng-cypress-component-test-scss-error/apps/products/src/app'
+    -->
+</div>
+
+
+<img src="assets/logo.svg" alt="assets/logo.svg">
+
+<!--<app-nx-welcome></app-nx-welcome>-->
+<router-outlet></router-outlet>

@@ -1,0 +1,11 @@
+.logo-with-slash {
+  width: 200px;
+  height: 200px;
+  background-image: url("/assets/logo.svg");
+}
+
+.logo-with-no-slash {
+  width: 200px;
+  height: 200px;
+  background-image: url("assets/logo.svg");
+}
