@@ -9,3 +9,12 @@
   height: 200px;
   background-image: url("assets/logo.svg");
 }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("assets/OpenSans-Regular.ttf");
+}
+
+p {
+  font-family: 'Open Sans';
+}
