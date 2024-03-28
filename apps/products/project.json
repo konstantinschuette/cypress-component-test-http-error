@@ -26,6 +26,9 @@
           }
         ],
         "styles": ["apps/products/src/styles.scss"],
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/assets/src/lib/assets"]
+        },
         "scripts": []
       },
       "configurations": {
