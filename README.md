@@ -1,1 +1,1 @@
-# cypress-component-test-http-error
+nx-ng-cypress-component-test-scss-error
